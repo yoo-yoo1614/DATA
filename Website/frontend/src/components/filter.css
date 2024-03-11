@@ -1,0 +1,28 @@
+
+.nav-container {
+    background-color: black; /* Set background color */
+    background-image: url(random-walk-white.png); /* Set background image */
+    background-size: 200px; /* Adjust image size */
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 30px;
+    /* Add more styles as needed */
+  }
+  .head{
+    text-align: center;
+  padding-top: 30px; /* Adjust the padding-top to move the text downwards */
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+  
+  .small{
+    top:0px;
+    bottom:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px; /* You can adjust this value as needed */
+    margin-top:10px; /* Adjust this value to move the image up */
+    position: relative; 
+  }

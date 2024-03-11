@@ -1,0 +1,36 @@
+.navbar {
+    background-color: black; /* Set background color */
+    background-image: url(random-walk-white.png); /* Set background image */
+    background-size: 200px; /* Adjust image size */
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 30px;
+    /* Add more styles as needed */
+  }
+  .camera-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .fullscreen-video {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+  
+  .capture-button {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .capture-button img {
+    width: 150px; /* Set the width as desired */
+    height: auto; /* Maintain aspect ratio */
+  }
